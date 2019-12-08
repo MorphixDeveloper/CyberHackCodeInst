@@ -1,16 +1,16 @@
-поставить цвет фона кнопки button1.backcolor - red   (or red, blue, yellow, green, lime, black)
+поставить цвет фона кнопки button1.backcolor = red   (or red, blue, yellow, green, lime, black)
 
 
-поставить цвет текста кнопкиbutton1.textcolor - red   (or red, blue, yellow, green, lime, black)
+поставить цвет текста кнопкиbutton1.textcolor = red   (or red, blue, yellow, green, lime, black)
 
 
-поставить цвет фона для поля ввода textbox1.backcolor - red  (or red, blue, yellow, green, lime, black)
+поставить цвет фона для поля ввода textbox1.backcolor = red  (or red, blue, yellow, green, lime, black)
 
 
-поставить цвет текста для поля ввода textbox1.textcolor - red  (or red, blue, yellow, green, lime, black)
+поставить цвет текста для поля ввода textbox1.textcolor = red  (or red, blue, yellow, green, lime, black)
 
 
-поставить скорость чем больше значение тем быстрее - walkspeed 100             (or 20, 50, 100, 200, 300)
+поставить скорость чем больше значение тем быстрее  walkspeed = 100             (or 20, 50, 100, 200, 300)
 
 
 обычная скорость ходьбы - defaultwalk
@@ -31,7 +31,7 @@
 установить стиль окна статичный или динамический(в статичном нельзя разширять программу а в динамическом можно)              window.style.default     (or window.style.static)
 
 
-поставить цвет заднего фона - back.color - red         (or red, blue, yellow, green, lime, black)
+поставить цвет заднего фона - back.color = red         (or red, blue, yellow, green, lime, black)
 
 
 если вы напишите Injected? вам чит вернёт значение true/false 
@@ -44,3 +44,6 @@
 
 
 закрыть это окно - this form close
+
+
+сделать программу поверх окон - window.style.OnTop = true  (или false)
